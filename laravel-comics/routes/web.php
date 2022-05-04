@@ -22,5 +22,5 @@ Route::get('/home', function () {
 })->name('guest-home');
 
 Route::get('/contatti', function () {
-    return view('guest.contacts');
+    return view('guest.contact');
 });
