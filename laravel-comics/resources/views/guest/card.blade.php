@@ -12,23 +12,23 @@
         <div class="info-container">
 
             <div class="info">
-                <h1>title</h1>
+                <h1>{{$singleComic['title']}}</h1>
                 <div class="price-container">
                     <div class="price">
-                        <p>U.S. Price: 22.22 {{}}</p>
-                        <p class="color-grey">{AVAIBLE}</p>
+                        <p>U.S. Price: {{$singleComic['price']}}</p>
+                        <p class="color-grey">AVAIBLE</p>
                     </div>
                     <div class="check">
                         <p class="color-white">Check Availability</p>
                     </div>
                 </div>
                 <div class="desciprion">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa dolorem maiores libero? Dignissimos est, nam impedit ea itaque magnam sequi reiciendis facere hic perspiciatis. Aliquam iure itaque aspernatur eaque fugiat?</p>
+                    <p>{{$singleComic['description']}}</p>
                 </div>
             </div>
             <div class="img-info">
                 <div class="short-description">
-                    <p>advsmntpf</p>
+                    <p>ADVERTISEMENT</p>
                 </div>
                 
                 <div class="img-container">
@@ -48,11 +48,11 @@
                 </div>
                 <div>
                     <p>Art by:</p>
-                    <p class="color-blue">paragrafo</p>
+                    <p class="color-blue">......</p>
                 </div>
                 <div>
                     <p>Written by:</p>
-                    <p class="color-blue">paragrafo</p>
+                    <p class="color-blue">......</p>
                 </div>
             </div>
             <div class="spects">
@@ -61,15 +61,15 @@
                 </div>
                 <div>
                     <p>Series:</p>
-                    <p class="color-blue">{ACTION}</p>
+                    <p class="color-blue">{{$singleComic['type']}}</p>
                 </div>
                 <div>
                     <p>U.S. Price:</p>
-                    <p>{19.90}</p>
+                    <p>{{$singleComic['price']}}}</p>
                 </div>
                 <div>
                     <p>On Sale Date:</p>
-                    <p>{Oct...}</p>
+                    <p>{{$singleComic['sale_date']}}</p>
                 </div>
             </div>
         </div>

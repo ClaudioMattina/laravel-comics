@@ -23,5 +23,19 @@ Route::get('/', function () {
 
 Route::get('/card', function () {
     $headerList = config('headerList');
-    return view('guest.card' , ["headerList" => $headerList]);
+    $comics = config('comics');
+    
+    return view('guest.card' , ["headerList" => $headerList], ["comics" => $comics] );
 })->name('guest-card');
+
+Route::get('/card/{id}', function ($id) {
+    $headerList = config('headerList');
+    $comics = config('comics');
+    $mainContent = config('mainContent');
+    if(is_numeric($id) && $id >= 0 && $id < count($comics)){
+        return view('guest.card' , ["headerList" => $headerList], ["singleComic" => $comics[$id]], ["singleContent" => $mainContent[$id]] );
+    } else {
+        abort(404);
+    }
+    
+})->name('guest-single-card');
