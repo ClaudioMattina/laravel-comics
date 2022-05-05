@@ -7,28 +7,42 @@
 
               <h4>DC COMICS</h4>
               <ul>
-                  <li>ciao</li>
+                  <li><a href="#"> ciao </a></li>
+                  <li><a href="#"> ciao </a></li>
+                  <li><a href="#"> ciao </a></li>
+                  <li><a href="#"> ciao </a></li>
               </ul>  
             </div>
 
             <div class="link">
               <h4>DC</h4>
               <ul>
-                <li>ciao</li>
+                <li><a href="#"> ciao </a></li>
+                <li><a href="#"> ciao </a></li>
+                <li><a href="#"> ciao </a></li>
+                <li><a href="#"> ciao </a></li>
+                <li><a href="#"> ciao </a></li>
+
               </ul>
             </div>
             
             <div class="link">
               <h4>SITES</h4>
               <ul>
-                <li>ciao</li>
+                <li><a href="#"> ciao </a></li>
+                <li><a href="#"> ciao </a></li>
+                <li><a href="#"> ciao </a></li>
               </ul>
             </div>
 
             <div class="link">
               <h4>SHOP</h4>
               <ul>
-                <li>ciao</li>
+                <li><a href="#"> ciao </a></li>
+                <li><a href="#"> ciao </a></li>
+                <li><a href="#"> ciao </a></li>
+                <li><a href="#"> ciao </a></li>
+                <li><a href="#"> ciao </a></li>
               </ul>
             </div>
 
