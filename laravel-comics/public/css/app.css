@@ -25,11 +25,10 @@
 
 #my-jumbo-bg {
   margin-top: 2rem;
-  height: 400px;
-  background-image: url("/images/infinite-frontier-dc.jpg");
-  background-repeat: no-repeat;
+  height: 550px;
+  background-image: url("/images/jumbotron.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: top;
 }
 
 #my-container {
