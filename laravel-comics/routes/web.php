@@ -14,20 +14,22 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-
+/* rotta di base ("file home.blade.php") */
 Route::get('/', function () {
     $headerList = config('headerList');
     $mainContent = config('mainContent');
     return view('guest.home' , ["headerList" => $headerList], ["mainContent" => $mainContent] );
 })->name('guest-home');
 
+/* rotta della sezione card ("file card.blade.php")*/
 Route::get('/card', function () {
     $headerList = config('headerList');
     $comics = config('comics');
-    
     return view('guest.card' , ["headerList" => $headerList], ["comics" => $comics] );
 })->name('guest-card');
 
+
+/* rotta in base all'id del fumetto scelto */
 Route::get('/card/{id}', function ($id) {
     $headerList = config('headerList');
     $comics = config('comics');

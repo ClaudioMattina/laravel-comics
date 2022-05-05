@@ -9,11 +9,14 @@
     <title>DC COMICS</title>
 </head>
 <body>
+
+    {{-- header fisso --}}
     <header>
         @include('partials.header')
     </header>
    
 
+    {{-- main diversificato in base alla rotta --}}
     <main>
         
         @yield('main-content')
@@ -21,7 +24,7 @@
     </main>
 
 
-
+    {{-- footer fisso --}}
     <div>
         @include('partials.pre-footer')
     </div>

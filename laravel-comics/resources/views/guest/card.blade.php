@@ -5,7 +5,7 @@
     <div class="single-card-container">
         <div class="blue-space"> 
             <div class="card-img">
-                <img src="/images/adv.jpg" alt="">
+                <img src="{{$singleComic['thumb']}}" alt="">
             </div>
         </div>
         
