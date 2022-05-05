@@ -2,3 +2,34 @@
 /* importiamo il file scss common dalla cartella partial */
 @import "partials/common";
 
+.header-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 70%;
+        margin: 0 auto;
+  
+           ul{
+             display: flex;
+             
+              li{
+                list-style-type: none;
+                padding: 10px;
+                
+                
+                
+                  a{
+                    text-decoration: none;
+                    color: black;
+                    font-size: 1rem;
+                    
+                      &:active,
+                      &.active{
+                        color: rgb(4, 84, 189);
+                        border-bottom: 2px solid rgb(4, 84, 189);
+                      }
+                  }
+  
+              }
+           }
+ }

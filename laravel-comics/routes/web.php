@@ -16,9 +16,11 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-    return view('guest.home');
+    $headerList = config('headerList');
+    return view('guest.home' , ["headerList" => $headerList]);
 })->name('guest-home');
 
 Route::get('/contatti', function () {
-    return view('guest.contact');
+    $headerList = config('headerList');
+    return view('guest.contact' , ["headerList" => $headerList]);
 });
