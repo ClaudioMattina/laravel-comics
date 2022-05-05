@@ -211,6 +211,15 @@
   height: 100px;
   background-color: rgb(4, 84, 189);
   margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+}
+.single-card-container .blue-space .card-img {
+  width: 60%;
+  margin: 0 auto;
+}
+.single-card-container .blue-space .card-img img {
+  padding-bottom: 200px;
 }
 .single-card-container .info-container {
   width: 60%;
@@ -303,7 +312,7 @@
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid grey;
-  padding: 10px;
+  padding: 20px;
   font-size: 1.5rem;
 }
 .info-author-container .big-container .spects {
@@ -316,7 +325,7 @@
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid grey;
-  padding: 10px;
+  padding: 20px;
   font-size: 1.5rem;
 }
 

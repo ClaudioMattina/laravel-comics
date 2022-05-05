@@ -4,9 +4,13 @@
     
     <div class="single-card-container">
         <div class="blue-space"> 
+            <div class="card-img">
+                <img src="/images/adv.jpg" alt="">
+            </div>
         </div>
-
+        
         <div class="info-container">
+
             <div class="info">
                 <h1>title</h1>
                 <div class="price-container">
