@@ -25,9 +25,102 @@
 
 #my-jumbo-bg {
   margin-top: 2rem;
-  height: 600px;
+  height: 400px;
   background-image: url("/images/infinite-frontier-dc.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+#my-container {
+  background-image: url("/images/footer-bg.jpg");
+}
+
+#lists-footer-container {
+  width: 70%;
+  margin: 0 auto;
+  height: 450px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#lists-footer-container #links-footer {
+  display: flex;
+  justify-content: center;
+  color: white;
+  width: 50%;
+}
+#lists-footer-container #links-footer .link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+}
+#lists-footer-container #links-footer .link h4 {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+#lists-footer-container #links-footer .link ul li {
+  list-style: none;
+  padding: 0.2rem;
+}
+#lists-footer-container #links-footer .link ul li a {
+  text-decoration: none;
+  color: lightgrey;
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
+}
+#lists-footer-container #links-footer .link ul li a:hover {
+  color: white;
+}
+#lists-footer-container #bg-container {
+  width: 50%;
+  height: 100%;
+}
+#lists-footer-container #bg-container #img-footer {
+  width: 100%;
+  height: 100%;
+  background-image: url("/images/dc-logo-bg.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#grey-container {
+  background-color: rgb(145, 145, 145);
+}
+
+#my-btn {
+  border: solid 2px rgb(4, 84, 189);
+  padding: 8px;
+  margin-left: 20px;
+}
+#my-btn a {
+  text-decoration: none;
+  color: white;
+}
+
+#social-footer-container {
+  width: 70%;
+  margin: 0 auto;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#icons-social-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  color: rgb(4, 84, 189);
+}
+#icons-social-container .social-icon {
+  margin-left: 1rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
