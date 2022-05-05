@@ -2,7 +2,7 @@
 
 @section('main-content')
     
-    <h1>contacts</h1>
-    <h2>ciao</h2>
+    <h1>CONTACTS</h1>
+    
 
 @endsection

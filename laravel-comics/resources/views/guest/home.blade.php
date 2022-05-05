@@ -2,7 +2,6 @@
 
 @section('main-content')
     
-    <h1>home</h1>
-    <h2>ciao</h2>
+    <h1>HOME</h1>
 
 @endsection

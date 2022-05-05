@@ -9,10 +9,10 @@
     <title>DC COMICS</title>
 </head>
 <body>
-    
     <header>
-
+        @include('partials.header')
     </header>
+   
 
     <main>
         
@@ -20,7 +20,7 @@
     
     </main>
 
-    
+    @include('partials.footer')
 
     <footer>
 
