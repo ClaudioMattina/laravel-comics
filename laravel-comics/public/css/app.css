@@ -1,8 +1,4 @@
 /* importiamo il file scss common dalla cartella partial */
-h1 {
-  color: red;
-}
-
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -25,4 +21,13 @@ h1 {
 .header-container ul li a:active, .header-container ul li a.active {
   color: rgb(4, 84, 189);
   border-bottom: 2px solid rgb(4, 84, 189);
+}
+
+#my-jumbo-bg {
+  margin-top: 2rem;
+  height: 600px;
+  background-image: url("/images/infinite-frontier-dc.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }

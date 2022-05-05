@@ -7,9 +7,13 @@
       <ul>
 
         @foreach ($headerList as $elementList)
-            <li>{{ $elementList['text'] }}</li>
+            <li> <a href="#">{{ $elementList['text'] }}</a> </li>
         @endforeach
 
       </ul>
     </div>
+</div>
+
+<div id="my-jumbo-bg">
+
 </div>
