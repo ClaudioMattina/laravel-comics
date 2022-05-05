@@ -10,7 +10,7 @@
             <div class="img-scheda-container">
               <img src="{{ $contentItem['thumb'] }}" :alt="serieTitle">
             </div>
-            <h3> {{$contentItem['series']}} </h3>
+            <a href="#"><h3> {{$contentItem['series']}} </h3></a>
         </div>
         @endforeach
         

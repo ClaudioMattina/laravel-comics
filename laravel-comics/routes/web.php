@@ -21,7 +21,7 @@ Route::get('/', function () {
     return view('guest.home' , ["headerList" => $headerList], ["mainContent" => $mainContent] );
 })->name('guest-home');
 
-Route::get('/contatti', function () {
+Route::get('/card', function () {
     $headerList = config('headerList');
-    return view('guest.contact' , ["headerList" => $headerList]);
-});
+    return view('guest.card' , ["headerList" => $headerList]);
+})->name('guest-card');

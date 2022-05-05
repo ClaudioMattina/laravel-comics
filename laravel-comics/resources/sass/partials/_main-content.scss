@@ -36,10 +36,17 @@
         padding: 1%;
         
         
-
-        h3{
-          font-size: 1rem; 
-                    
+        a:hover{
+            color: rgb(4, 84, 189);
+        }
+        a{
+            font-size: 1rem;
+            color: white;
+            text-decoration: none;
+            h3{
+                font-size: 1rem; 
+                          
+              }
         }
         
 

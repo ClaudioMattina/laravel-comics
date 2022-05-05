@@ -174,7 +174,15 @@
   display: flex;
   padding: 1%;
 }
-#content-container .my-scheda h3 {
+#content-container .my-scheda a:hover {
+  color: rgb(4, 84, 189);
+}
+#content-container .my-scheda a {
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+}
+#content-container .my-scheda a h3 {
   font-size: 1rem;
 }
 #content-container .my-scheda .img-scheda-container {
