@@ -35,9 +35,77 @@
 
     </div>
 
+
     <div class="info-author-container">
-        
+        <div class="big-container">
+            <div class="talent">
+                <div>
+                    <h1>Talent</h1>
+                </div>
+                <div>
+                    <p>Art by:</p>
+                    <p class="color-blue">paragrafo</p>
+                </div>
+                <div>
+                    <p>Written by:</p>
+                    <p class="color-blue">paragrafo</p>
+                </div>
+            </div>
+            <div class="spects">
+                <div>
+                    <h1>Spects</h1>
+                </div>
+                <div>
+                    <p>Series:</p>
+                    <p class="color-blue">{ACTION}</p>
+                </div>
+                <div>
+                    <p>U.S. Price:</p>
+                    <p>{19.90}</p>
+                </div>
+                <div>
+                    <p>On Sale Date:</p>
+                    <p>{Oct...}</p>
+                </div>
+            </div>
+        </div>
     </div>
     
+    <div class="option-container">
+        <div class="options">
+            <div>
+                <div>
+                    <h5>DIGITAL COMICS</h5>
+                </div>
+                <div>
+                    <img src="/images/buy-comics-subscriptions.png" alt="">
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h5>SHOP DC</h5>
+                </div>
+                <div>
+                    <img src="/images/buy-comics-merchandise.png" alt="">
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h5>COMICS SHOP LOCATOR</h5>
+                </div>
+                <div>
+                    <img src="/images/buy-comics-shop-locator.png" alt="">
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h5>SUBSCRIPTIONS</h5>
+                </div>
+                <div>
+                    <img src="/images/buy-comics-digital-comics.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
 
 @endsection

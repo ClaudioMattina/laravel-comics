@@ -215,7 +215,6 @@
 .single-card-container .info-container {
   width: 60%;
   margin: 0 auto;
-  background-color: lightgray;
   display: flex;
 }
 .single-card-container .info-container .info {
@@ -281,9 +280,73 @@
 }
 
 .info-author-container {
-  height: 500px;
+  padding: 20px 0px 200px 0px;
   width: 100%;
-  background-color: grey;
+  background-color: lightgrey;
+  border: 1px solid grey;
+}
+.info-author-container .big-container {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.info-author-container .big-container .color-blue {
+  color: rgb(0, 0, 255);
+}
+.info-author-container .big-container .talent {
+  width: 56%;
+  display: flex;
+  flex-direction: column;
+}
+.info-author-container .big-container .talent div {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+.info-author-container .big-container .spects {
+  width: 40%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.info-author-container .big-container .spects div {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid grey;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.option-container {
+  width: 100%;
+  height: 100px;
+  background-color: lightgray;
+  border: 1px solid grey;
+}
+.option-container .options {
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.option-container .options div {
+  width: 25%;
+  height: 100%;
+  border-right: 1px solid grey;
+  border-left: 1px solid grey;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.option-container .options div div {
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
 }
 
 * {
