@@ -5,12 +5,14 @@
 
     <div class="my-special-container">
 
-        @foreach ($mainContent as $contentItem)
+        @foreach ($mainContent as $index => $contentItem)
         <div class="my-scheda">
             <div class="img-scheda-container">
               <img src="{{ $contentItem['thumb'] }}" :alt="serieTitle">
             </div>
-            <a href="#"><h3> {{$contentItem['series']}} </h3></a>
+            <a href="{{ route('guest-single-card', ['id' => $index]) }}">
+                <h3> {{$contentItem['series']}} </h3>
+            </a>
         </div>
         @endforeach
         
