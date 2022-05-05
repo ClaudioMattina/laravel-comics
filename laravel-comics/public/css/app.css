@@ -118,6 +118,31 @@
   margin-left: 1rem;
 }
 
+.my-container {
+  background-color: rgb(4, 84, 189);
+}
+
+#icones-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 70%;
+  margin: 0 auto;
+  height: 150px;
+}
+#icones-container div {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  color: white;
+}
+#icones-container div img {
+  width: 25%;
+  margin-right: 10px;
+}
+
 * {
   padding: 0;
   margin: 0;

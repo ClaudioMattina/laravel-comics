@@ -20,10 +20,14 @@
     
     </main>
 
-    @include('partials.footer')
+
+
+    <div>
+        @include('partials.pre-footer')
+    </div>
 
     <footer>
-
+        @include('partials.footer')
     </footer>
 
 </body>
