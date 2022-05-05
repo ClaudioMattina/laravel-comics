@@ -203,8 +203,92 @@
   justify-content: center;
 }
 
+.single-card-container {
+  margin-bottom: 100px;
+}
+.single-card-container .blue-space {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(4, 84, 189);
+  margin-bottom: 50px;
+}
+.single-card-container .info-container {
+  width: 60%;
+  margin: 0 auto;
+  background-color: lightgray;
+  display: flex;
+}
+.single-card-container .info-container .info {
+  width: 60%;
+}
+.single-card-container .info-container .info h1 {
+  font-size: 40px;
+}
+.single-card-container .info-container .info .desciprion {
+  font-size: 1.6rem;
+  margin-top: 10px;
+}
+.single-card-container .info-container .info .price-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: green;
+  margin-top: 10px;
+}
+.single-card-container .info-container .info .price-container .color-grey {
+  color: gray;
+}
+.single-card-container .info-container .info .price-container .color-white {
+  color: white;
+}
+.single-card-container .info-container .info .price-container .price {
+  border-right: 1px solid lightgrey;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.4rem;
+  padding: 10px;
+}
+.single-card-container .info-container .info .price-container .check {
+  width: 40%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+  padding: 10px;
+  text-align: center;
+}
+.single-card-container .info-container .img-info {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.single-card-container .info-container .img-info .short-description {
+  display: flex;
+  justify-content: flex-end;
+}
+.single-card-container .info-container .img-info .short-description p {
+  font-size: 1.2rem;
+}
+.single-card-container .info-container .img-info .img-container {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: flex-end;
+}
+.single-card-container .info-container .img-info .img-container img {
+  width: 80%;
+}
+
+.info-author-container {
+  height: 500px;
+  width: 100%;
+  background-color: grey;
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
