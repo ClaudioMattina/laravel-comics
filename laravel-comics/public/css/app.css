@@ -315,6 +315,20 @@
   padding: 20px;
   font-size: 1.5rem;
 }
+.info-author-container .big-container .talent .art-by {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.info-author-container .big-container .talent .art-by p {
+  font-size: 0.8rem;
+}
+.info-author-container .big-container .talent .write-by {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.info-author-container .big-container .talent .write-by p {
+  font-size: 0.8rem;
+}
 .info-author-container .big-container .spects {
   width: 40%;
   height: 100px;

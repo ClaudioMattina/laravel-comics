@@ -46,14 +46,29 @@
                 <div>
                     <h1>Talent</h1>
                 </div>
-                <div>
-                    <p>Art by:</p>
-                    <p class="color-blue">......</p>
+
+                <div class="art-by">
+                    <div>
+                        <p>Art by:</p>
+                    </div>
+                   <div>
+                        @foreach ($singleComic['artists'] as $itemArtist)
+                            <p class="color-blue">{{ $itemArtist }}</p>
+                        @endforeach
+                   </div>
                 </div>
-                <div>
-                    <p>Written by:</p>
-                    <p class="color-blue">......</p>
+
+                <div class="write-by">
+                    <div>
+                        <p>Written by:</p>
+                    </div>
+                    <div>
+                        @foreach ($singleComic['writers'] as $itemWriter)
+                            <p class="color-blue"> {{$itemWriter}} </p>
+                        @endforeach
+                    </div>
                 </div>
+
             </div>
             <div class="spects">
                 <div>
